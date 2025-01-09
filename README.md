@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="screenshots/Dashboard.png" alt="Fitness Tracker Dashboard" width="800">
+  <img src="Screenshots/Dashboard.png" alt="Fitness Tracker Dashboard" width="800">
 </p>
 
 ## About
@@ -51,7 +51,7 @@ Fitness Tracker Pro is a powerful web application designed to help users monitor
       <li>Record exercise details including name, reps, sets, and weight</li>
       <li>View exercise history in a clean, tabular format</li>
     </ul>
-    <img src="screenshots/Add_Exercise.png" alt="Add Exercise Interface" width="400">
+    <img src="Screenshots/Add_Exercise.png" alt="Add Exercise Interface" width="400">
   </div>
 
   <div>
@@ -61,7 +61,7 @@ Fitness Tracker Pro is a powerful web application designed to help users monitor
       <li>Track progress towards goals with visual indicators</li>
       <li>Receive notifications for goal achievements and reminders</li>
     </ul>
-    <img src="screenshots/Add_Fitness_Goals.png" alt="Fitness Goals Interface" width="400">
+    <img src="Screenshots/Add_Fitness_Goals.png" alt="Fitness Goals Interface" width="400">
   </div>
 </div>
 
@@ -74,19 +74,19 @@ The Fitness Tracker Pro boasts a clean, intuitive user interface designed with T
 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6">
   <div>
     <h4>Dashboard & Exercise Logging</h4>
-    <img src="screenshots/Dashboard.png" alt="Dashboard Interface" width="400">
+    <img src="Screenshots/Dashboard.png" alt="Dashboard Interface" width="400">
     <p class="text-sm mt-2">Comprehensive dashboard showing exercise logs and quick stats</p>
   </div>
 
   <div>
     <h4>Goals Management</h4>
-    <img src="screenshots/Fitness_Goals.png" alt="Goals Management" width="400">
+    <img src="Screenshots/Fitness_Goals.png" alt="Goals Management" width="400">
     <p class="text-sm mt-2">Set and track your fitness goals with detailed metrics</p>
   </div>
 
   <div>
     <h4>Quick Goal Setting</h4>
-    <img src="screenshots/Add_Goals.png" alt="Quick Goal Setting" width="400">
+    <img src="Screenshots/Add_Goals.png" alt="Quick Goal Setting" width="400">
     <p class="text-sm mt-2">Streamlined interface for setting basic fitness goals</p>
   </div>
 </div>
