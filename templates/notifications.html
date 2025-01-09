@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="max-w-4xl mx-auto bg-white rounded-lg shadow-md p-8">
+    <h1 class="text-3xl font-bold text-primary mb-6">Reminders</h1>
+
+    {% if reminders and reminders|length > 0 %}
+        <ul class="space-y-4">
+            {% for reminder in reminders %}
+                <li class="flex items-start bg-yellow-50 p-4 rounded-lg">
+                    <i class="fas fa-bell text-yellow-500 mr-3 mt-1"></i>
+                    <div>
+                        <span class="text-gray-700">{{ reminder.message }}</span>
+                        <p class="text-sm text-gray-500 mt-1">Reminded at: {{ reminder.time.strftime('%Y-%m-%d %H:%M:%S') }}</p>
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <div class="bg-green-50 p-4 rounded-lg">
+            <p class="text-green-700 flex items-center">
+                <i class="fas fa-check-circle mr-3 text-xl"></i>
+                No reminders at the moment!
+            </p>
+        </div>
+    {% endif %}
+</div>
+{% endblock %}
